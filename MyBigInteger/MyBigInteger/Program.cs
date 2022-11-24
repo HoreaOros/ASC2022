@@ -22,6 +22,8 @@ namespace MyBigInteger
 			{
 				Console.WriteLine(e.Message);
 			}
+			// TODO
+			// implementati stocarea unui numar mare sub forma de lista de octeti
 			// {1, 2, 3, 4, 5, 255 } =>> 00000101 00000100 00000011 00000010 00000001+
 			// {1, 2, 4, 8, 16, 1} =>> 00010000 00001000 00000100 00000010 00000001
 			// ------------------------------------------------------------------
