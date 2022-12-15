@@ -19,7 +19,7 @@ namespace _1213
         {
             uint mask;
             mask = 1u << offset;
-            n |= mask;
+            n |= mask; // n = n | mask;
             return n;
         }
         /*
